@@ -1,0 +1,6 @@
+<StackLayout>
+    <Label text="Logged in!"></Label>
+    <Button text="Go To Tabs Page" [nsRouterLink]="['/tabs/default']"></Button>
+
+    <Button text="Go To Welcome Page" (tap)="onNavigateWelcome()"></Button>
+</StackLayout>
